@@ -1,0 +1,11 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.agent.enabled": true
+}

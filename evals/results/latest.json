@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "cases": 18,
+    "passed": 18,
+    "answerable": 12,
+    "answerable_passed": 12,
+    "retrieval_hit_rate": 1.0,
+    "abstention": 6,
+    "abstention_correct": 6,
+    "overall_accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": "state-graph",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '02-state-graph', grounded answer containing ['state']"
+      ]
+    },
+    {
+      "id": "reducers",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '02-state-graph', grounded answer containing ['reducer']"
+      ]
+    },
+    {
+      "id": "checkpointing-enables",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '04-persistence-checkpointing', grounded answer containing ['checkpoint']"
+      ]
+    },
+    {
+      "id": "time-travel",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '04-persistence-checkpointing', grounded answer containing ['checkpoint', 'replayed']"
+      ]
+    },
+    {
+      "id": "interrupts",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '05-human-in-the-loop', grounded answer containing ['interrupt']"
+      ]
+    },
+    {
+      "id": "memory-kinds",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '06-memory', grounded answer containing ['short-term', 'long-term']"
+      ]
+    },
+    {
+      "id": "chunking-knobs",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '09-document-loaders-and-splitting', grounded answer containing ['chunk', 'overlap']"
+      ]
+    },
+    {
+      "id": "chunk-metadata",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '09-document-loaders-and-splitting', grounded answer containing ['metadata', 'citation']"
+      ]
+    },
+    {
+      "id": "embeddings-cosine",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '10-embeddings-and-vector-stores', grounded answer containing ['cosine']"
+      ]
+    },
+    {
+      "id": "hybrid-search",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '10-embeddings-and-vector-stores', grounded answer containing ['hybrid', 'keyword']"
+      ]
+    },
+    {
+      "id": "top-k",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '11-retrievers', grounded answer containing ['top-k']"
+      ]
+    },
+    {
+      "id": "groundedness-def",
+      "kind": "answerable",
+      "passed": true,
+      "retrieval_ok": true,
+      "terms_ok": true,
+      "grounded_ok": true,
+      "abstained": false,
+      "diagnosis": [
+        "retrieved '14-evaluation-groundedness', grounded answer containing ['grounded']"
+      ]
+    },
+    {
+      "id": "abstain-cooking",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    },
+    {
+      "id": "abstain-weather",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    },
+    {
+      "id": "abstain-stock",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    },
+    {
+      "id": "abstain-sports",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    },
+    {
+      "id": "abstain-travel",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    },
+    {
+      "id": "abstain-bike",
+      "kind": "abstention",
+      "passed": true,
+      "abstained": true,
+      "diagnosis": [
+        "correctly abstained on an out-of-corpus question"
+      ]
+    }
+  ]
+}

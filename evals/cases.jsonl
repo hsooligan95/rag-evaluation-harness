@@ -1,0 +1,18 @@
+{"id": "state-graph", "kind": "answerable", "question": "What is a state graph in LangGraph and how does state flow through it?", "expected_doc": "02-state-graph", "expected_terms": ["StateGraph", "state"]}
+{"id": "reducers", "kind": "answerable", "question": "How do reducers control how state updates are combined in LangGraph?", "expected_doc": "02-state-graph", "expected_terms": ["reducer"]}
+{"id": "checkpointing-enables", "kind": "answerable", "question": "What does checkpointing enable in LangGraph?", "expected_doc": "04-persistence-checkpointing", "expected_terms": ["checkpoint"]}
+{"id": "time-travel", "kind": "answerable", "question": "How does time travel work with checkpointing in LangGraph?", "expected_doc": "04-persistence-checkpointing", "expected_terms": ["checkpoint", "replayed"]}
+{"id": "interrupts", "kind": "answerable", "question": "How do interrupts support human-in-the-loop patterns in LangGraph?", "expected_doc": "05-human-in-the-loop", "expected_terms": ["interrupt"]}
+{"id": "memory-kinds", "kind": "answerable", "question": "What is the difference between short-term memory and long-term memory in LangGraph?", "expected_doc": "06-memory", "expected_terms": ["short-term", "long-term"]}
+{"id": "chunking-knobs", "kind": "answerable", "question": "What are chunk size and chunk overlap in text splitting, and why do they matter?", "expected_doc": "09-document-loaders-and-splitting", "expected_terms": ["chunk", "overlap"]}
+{"id": "chunk-metadata", "kind": "answerable", "question": "Why should metadata travel with every chunk in a retrieval pipeline?", "expected_doc": "09-document-loaders-and-splitting", "expected_terms": ["metadata", "citation"]}
+{"id": "embeddings-cosine", "kind": "answerable", "question": "What is an embedding and how is similarity between texts measured?", "expected_doc": "10-embeddings-and-vector-stores", "expected_terms": ["embedding", "cosine"]}
+{"id": "hybrid-search", "kind": "answerable", "question": "What is hybrid search and why combine keyword and vector search?", "expected_doc": "10-embeddings-and-vector-stores", "expected_terms": ["hybrid", "keyword"]}
+{"id": "top-k", "kind": "answerable", "question": "What is top-k in a retriever and why does the setting matter?", "expected_doc": "11-retrievers", "expected_terms": ["top-k"]}
+{"id": "groundedness-def", "kind": "answerable", "question": "What does groundedness mean for an LLM answer?", "expected_doc": "14-evaluation-groundedness", "expected_terms": ["grounded"]}
+{"id": "abstain-cooking", "kind": "abstention", "question": "What is the best recipe for banana bread?"}
+{"id": "abstain-weather", "kind": "abstention", "question": "What will the weather be in Chicago tomorrow?"}
+{"id": "abstain-stock", "kind": "abstention", "question": "What is the current stock price of Microsoft?"}
+{"id": "abstain-sports", "kind": "abstention", "question": "Who won the football World Cup in 2022?"}
+{"id": "abstain-travel", "kind": "abstention", "question": "What are the best hotels to stay at in Paris?"}
+{"id": "abstain-bike", "kind": "abstention", "question": "How do I fix a flat bicycle tire?"}

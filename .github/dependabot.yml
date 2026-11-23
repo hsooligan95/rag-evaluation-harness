@@ -1,0 +1,16 @@
+# Dependabot version updates: weekly, grouped into one PR per
+# ecosystem/directory so update noise stays reviewable.
+# (Security alerts are controlled in the repo's security settings;
+# this file only drives update PRs.)
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    groups:
+      pip-root:
+        patterns:
+          - "*"

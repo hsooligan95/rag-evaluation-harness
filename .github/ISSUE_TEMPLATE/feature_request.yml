@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a change scoped to this repo's one job in the platform.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What is hard or impossible today, and who hits it?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: The smallest change that would solve it.
+    validations:
+      required: true
+  - type: textarea
+    id: platform
+    attributes:
+      label: Platform impact
+      description: Does this affect anything other repos consume (event schema, CLI surface, file formats)?

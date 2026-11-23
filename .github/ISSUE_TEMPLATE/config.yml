@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Platform guide
+    url: https://github.com/hsooligan95/hsooligan95/blob/main/PLATFORM-GUIDE.md
+    about: How the repos in this platform fit together, end to end.
